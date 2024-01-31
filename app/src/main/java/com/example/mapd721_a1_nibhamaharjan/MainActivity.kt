@@ -138,7 +138,8 @@ fun MainScreen(activity: ComponentActivity) {
                         }
                     },
                     colors = ButtonDefaults.buttonColors(
-                        contentColor = Color.White
+                        contentColor = Color.White,
+                        containerColor = Color.Blue
                     )
                 ) {
                     // button text
@@ -165,7 +166,8 @@ fun MainScreen(activity: ComponentActivity) {
                         }
                     },
                     colors = ButtonDefaults.buttonColors(
-                        contentColor = Color.White
+                        contentColor = Color.White,
+                        containerColor = Color.Cyan
                     )
                 ) {
                     // button text
@@ -194,7 +196,8 @@ fun MainScreen(activity: ComponentActivity) {
                         }
                     },
                     colors = ButtonDefaults.buttonColors(
-                        contentColor = Color.White
+                        contentColor = Color.White,
+                        containerColor = Color.LightGray
                     )
                 ) {
                     // button text
@@ -205,7 +208,7 @@ fun MainScreen(activity: ComponentActivity) {
                 }
             }
 
-            Spacer(modifier = Modifier.height(20.dp))
+            Spacer(modifier = Modifier.height(300.dp))
         }
 
         // Display saved data
